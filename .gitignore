@@ -1,0 +1,17 @@
+.env
+.env.*
+.venv/
+__pycache__/
+*.pyc
+.DS_Store
+
+# Model files
+*.safetensors
+gemma3-4b-4bit/
+adapters*/
+
+# Datasets and generated translations
+*.jsonl
+
+# Secrets
+*credentials*.json
